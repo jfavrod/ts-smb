@@ -1,0 +1,32 @@
+{
+  "name": "ts-smb",
+  "version": "0.1.0",
+  "description": "A TypeSciprt/Promises Wrapper for the smb2 package.",
+  "main": "index.js",
+  "dependencies": {
+    "smb2": "^0.2.11"
+  },
+  "devDependencies": {
+    "@types/node": "^14.6.0",
+    "@typescript-eslint/eslint-plugin": "^3.10.0",
+    "@typescript-eslint/parser": "^3.10.0",
+    "eslint": "^7.7.0",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^4.0.2"
+  },
+  "scripts": {
+    "build": "run-s lint compile",
+    "lint": "npx eslint ./src --ext .ts",
+    "compile": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "SMB",
+    "Client",
+    "Windows",
+    "Share",
+    "Network"
+  ],
+  "author": "Jason Favrod <mail@jasonfavrod.com>",
+  "license": "MIT"
+}

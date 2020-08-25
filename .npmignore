@@ -1,0 +1,8 @@
+.eslintignore
+.eslintrc.js
+.gitignore
+.git/
+tsconfig.json
+node_modules/
+src/
+test/
